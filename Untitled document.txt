@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salim Jokes</title>
+
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#121212">
+
+
+</head>
+<body>
+
+
+  <div class="app">
+    <h1>😂 Salim Jokes</h1>
+    <p class="subtitle">Tap. Laugh. Repeat.</p>
+
+
+    <div class="joke-box" id="joke">
+      Click the button for a joke 😄
+    </div>
+
+
+    <button onclick="newJoke()">Next Joke</button>
+    <button onclick="speakJoke()">🔊 Read Aloud</button>
+
+
+    <p class="footer">Made by Salim 💙</p>
+  </div>
+
+
+  <script src="app.js"></script>
+
+
+</body>
+</html>
